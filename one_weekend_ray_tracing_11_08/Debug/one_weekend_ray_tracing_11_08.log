@@ -1,0 +1,41 @@
+﻿  源.cpp
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(99,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(100,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(103,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(104,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(107,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(108,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(122,31): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\my_objloader.h(123,31): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\mytriangle.h(130,8): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\源.cpp(50,18): warning C4305: “初始化”: 从“double”到“float”截断
+E:\work\vs2022\VC\Tools\MSVC\14.33.31629\include\xutility(238,77): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\work\vs2022\VC\Tools\MSVC\14.33.31629\include\memory(2022): message : 查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,int,vec3,const char(&)[9],std::shared_ptr<lambertian>&>(_Ty &,int &&,vec3 &&,const char (&)[9],std::shared_ptr<lambertian> &) noexcept(false)”的引用
+          with
+          [
+              _Ty=my_mesh_object
+          ]
+E:\work\vs2022\VC\Tools\MSVC\14.33.31629\include\memory(2741): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<my_mesh_object>::_Ref_count_obj2<_Ty,vec3,const char(&)[9],std::shared_ptr<lambertian>&>(_Ty &&,vec3 &&,const char (&)[9],std::shared_ptr<lambertian> &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+E:\work\vs2022\VC\Tools\MSVC\14.33.31629\include\memory(2742): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<my_mesh_object>::_Ref_count_obj2<_Ty,vec3,const char(&)[9],std::shared_ptr<lambertian>&>(_Ty &&,vec3 &&,const char (&)[9],std::shared_ptr<lambertian> &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+E:\work\c++项目\one_weekend_ray_tracing_11_08\one_weekend_ray_tracing_11_08\源.cpp(99): message : 查看对正在编译的函数 模板 实例化“std::shared_ptr<my_mesh_object> std::make_shared<my_mesh_object,int,point3,const char(&)[9],std::shared_ptr<lambertian>&>(int &&,point3 &&,const char (&)[9],std::shared_ptr<lambertian> &)”的引用
+  one_weekend_ray_tracing_11_08.vcxproj -> E:\work\c++项目\one_weekend_ray_tracing_11_08\Debug\one_weekend_ray_tracing_11_08.exe
